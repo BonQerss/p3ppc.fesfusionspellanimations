@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p3ppc.fesfusionspellanimations", "p3ppc.fesfusionspellanimations\p3ppc.fesfusionspellanimations.csproj", "{92C61211-66E5-49E9-B0B0-0A7C4DCCE5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriFs.V2.Hook.Interfaces", "Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj", "{0FFE60EE-C982-70B1-DFED-928C3DD16B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C61211-66E5-49E9-B0B0-0A7C4DCCE5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C61211-66E5-49E9-B0B0-0A7C4DCCE5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C61211-66E5-49E9-B0B0-0A7C4DCCE5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C61211-66E5-49E9-B0B0-0A7C4DCCE5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFE60EE-C982-70B1-DFED-928C3DD16B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFE60EE-C982-70B1-DFED-928C3DD16B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFE60EE-C982-70B1-DFED-928C3DD16B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFE60EE-C982-70B1-DFED-928C3DD16B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

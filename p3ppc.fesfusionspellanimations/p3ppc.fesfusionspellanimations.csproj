@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputPath>$(RELOADEDIIMODS)/p3ppc.fesfusionspellanimations</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ModConfig.json" CopyToOutputDirectory="Always" />
+    <Content Include="Motions\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Preview.png" CopyToOutputDirectory="PreserveNewest" Condition="Exists('Preview.png')" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Reloaded.Memory.SigScan.ReloadedII.Interfaces" Version="1.2.0" />
+    <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
+    <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mod.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Gmo.cs" />
+    <Compile Include="Pac.cs" />
+    <Compile Include="FusionPacks.cs" />
+    <Compile Include="Template\**\*.cs" />
+  </ItemGroup>
+</Project>

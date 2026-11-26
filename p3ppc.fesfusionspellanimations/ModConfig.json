@@ -1,0 +1,36 @@
+{
+  "ModId": "p3ppc.fesfusionspellanimations",
+  "ModName": "FES Fusion Spell Animations",
+  "ModAuthor": "Noradex",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Restores the P3F fusion spell animations for Makoto, and the P3F fusion shoot for Kotone, merged into every protagonist model pack at launch",
+  "ModDll": "p3ppc.fesfusionspellanimations.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "p3ppc.fesfusionspellanimations.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "crifs.v2.hook"
+  ],
+  "OptionalDependencies": [
+    "P3PPC.MultipleWeapons",
+    "p3ppc.multipleweapons.costumes",
+    "p3ppc.aiocostumes"
+  ],
+  "SupportedAppId": [
+    "p3p.exe"
+  ],
+  "ProjectUrl": "",
+  "CreatorUrl": "",
+  "IsSeparator": false
+}
